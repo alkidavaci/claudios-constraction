@@ -1,0 +1,56 @@
+/* Set the background color of the page */
+body {
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+}
+.container{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact-header {
+  padding-bottom: 0;
+  padding-top: 30px;
+  text-shadow: peru 1px 0 20px;
+}
+/* Style the form */
+.form-floating input,
+.form-floating textarea {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.form-floating input:focus,
+.form-floating textarea:focus {
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);
+}
+
+.form-floating label {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+/* Style the submit button */
+.btn-dark {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-dark:hover {
+  background-color: #23272b;
+  border-color: #23272b;
+}
+
+/* Style the contact info section */
+.contact-info {
+  margin-bottom: 2rem;
+}
+
+.contact-info h3 {
+  font-size: 1.2rem;
+  color: #343a40;
+}
+
+.contact-info address {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
